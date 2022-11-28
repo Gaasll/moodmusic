@@ -13,8 +13,10 @@ import HelloWorld from "./components/HelloWorld.vue";
       height="125"
     />
 
+   
+
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="An App Swings" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -31,6 +33,8 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
+
+
 
 .logo {
   display: block;

@@ -11,13 +11,19 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: rgb(178, 196, 222);
+  transition: 0.4s;
+}
+
+.green11 {
+  text-decoration: none;
+  color: rgb(178, 196, 222);
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(196, 30%, 78%, 0.2);
   }
 }
 
@@ -33,3 +39,5 @@ a,
     padding: 0 2rem;
   }
 }
+
+
