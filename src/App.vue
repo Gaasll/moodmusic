@@ -1,26 +1,43 @@
-<script setup lang="ts">
+<script >
+
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import Menu from './components/Menu.vue';
+
+export default {
+  name: 'App',
+  data: () => ({
+    
+  }),
+  components: {
+    Menu
+  }
+}
+
+
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+ <div id="app">
+    <Menu />
+  </div>
 
+
+
+  <header>
+    <img class="logo"
+   src = "logo.png" width="100" height ="100" 
+    />
+    
    
 
     <div class="wrapper">
       <HelloWorld msg="An App Swings" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/home">Home</RouterLink>
+        <RouterLink to="/about">Emotion</RouterLink>
+        <RouterLink to="/">Weather</RouterLink>
       </nav>
     </div>
   </header>
@@ -92,4 +109,13 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
 </style>

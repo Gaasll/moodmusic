@@ -30,7 +30,7 @@ i {
   width: 32px;
   height: 32px;
 
-  color: var(--color-text);
+  color: var();
 }
 
 h3 {

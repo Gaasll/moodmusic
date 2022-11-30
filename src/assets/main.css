@@ -15,11 +15,7 @@ a,
   transition: 0.4s;
 }
 
-.green11 {
-  text-decoration: none;
-  color: rgb(178, 196, 222);
-  transition: 0.4s;
-}
+
 
 @media (hover: hover) {
   a:hover {
