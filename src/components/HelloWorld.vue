@@ -11,21 +11,40 @@
 can be… frustrating. The combination of weather with our emotions can be
 interesting. Does the weather affect our mood? Do we have a “weather type”?
 Can music help?
+
+
       
     </h3>
   </div>
+
+  <div class="card">
+      
+      
+      <div class="box box1"><img src="stat.png" alt="a balloon"></div>
+        <br>
+          <div  class="box desc" > Weather and mood</div>
+          <div  class="box desc" > graph</div>
+  
+          <button> <span class="material-icons">favorite</span>
+            </button>
+  
+    
+       
+      
+      </div>
 </template>
 
 <style scoped>
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: 'Didact Gothic';
   top: -10px;
 }
 
 h3 {
   font-size: 1.2rem;
+  font-family: 'Didact Gothic';
 }
 
 .greetings h1,

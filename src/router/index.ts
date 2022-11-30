@@ -15,7 +15,12 @@ const router = createRouter({
 
     {
 			path: '/weather',
-			component: () => import('../views/Emotion.vue')
+			component: () => import('../views/Weather.vue')
+		},
+
+    {
+			path: '/playing',
+			component: () => import('../views/playingNow.vue')
 		},
 	],
 })

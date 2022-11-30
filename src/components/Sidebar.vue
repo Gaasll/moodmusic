@@ -6,9 +6,10 @@
 
 		<div class="menu-toggle-wrap">
 			<button class="menu-toggle" @click="ToggleMenu">
-				<span class="logo"> >> </span>
+				<span class="material-icons"> navigate_next </span>
 			</button>
 		</div>
+    
 
 		<h3>Menu</h3>
 		<div class="menu">
@@ -27,9 +28,13 @@
 				<span class="material-icons">sunny</span>
 				<span class="text">Weather</span>
 			</router-link>
+            <router-link to="/playing" class="button">
+				<span class="material-icons">play_arrow</span>
+				<span class="text">Playing now</span>
+			</router-link>
 			<router-link to="/contact" class="button">
-				<span class="material-icons">help</span>
-				<span class="text">more?</span>
+				<span class="material-icons">history</span>
+				<span class="text">History</span>
 			</router-link>
 		</div>
 
