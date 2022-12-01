@@ -5,8 +5,12 @@ import TheWelcome from "../components/TheWelcome.vue";
 
 
 <template>
+      
     <div class="weather">
-      <h1> Let's talk weather</h1>
+        <h1> 
+        Let's talk weather 
+    </h1>
+</div>
       
       <div class="card">
       
@@ -20,7 +24,7 @@ import TheWelcome from "../components/TheWelcome.vue";
           </svg></button>
       </div>
     
-    </div>
+   
   
   
     </div>
@@ -43,11 +47,14 @@ h3 {
 }
 
 
-  @media (min-width: 1024px) {
+  @media (min-width: 600px) {
     .weather {
       min-height: 100vh;
+      min-width: 100vh;
       display: flex;
       align-items: center;
+      justify-content: center;
+     
     
     }
   } 

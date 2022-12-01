@@ -1,7 +1,7 @@
 <template>
 	<aside :class="`${is_expanded ? 'is-expanded' : ''}`">
 		<div class="logo">
-			<img src="logo.png" alt="Vue" /> 
+			<img src="logot.png" alt="Vue" /> 
 		</div>
 
 		<div class="menu-toggle-wrap">
@@ -92,6 +92,7 @@ aside {
 				font-size: 2rem;
 				color: var(--light);
 				transition: 0.2s ease-out;
+                
 			}
 			
 			&:hover {
@@ -105,6 +106,7 @@ aside {
 	h3, .button .text {
 		opacity: 0;
 		transition: opacity 0.3s ease-in-out;
+        font-family: 'Didact Gothic';
 	}
 	h3 {
 		color: var(--grey);
@@ -166,7 +168,7 @@ aside {
 		}
 		h3, .button .text {
 			opacity: 1;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Didact Gothic';
 		}
 		.button {
 			.material-icons {

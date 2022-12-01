@@ -20,12 +20,12 @@ Can music help?
   <div class="card">
       
       
-      <div class="box box1"><img src="stat.png" alt="a balloon"></div>
+      <div class="box box1"><img src="stat.jpg" alt="a balloon"></div>
         <br>
           <div  class="box desc" > Weather and mood</div>
           <div  class="box desc" > graph</div>
   
-          <button> <span class="material-icons">favorite</span>
+          <button> <span class="material-icons">insights</span>
             </button>
   
     
