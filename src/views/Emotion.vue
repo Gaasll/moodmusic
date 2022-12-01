@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import WelcomeItem from "../components/WelcomeItem.vue";
+import Index from "../components/IndexPresenter.vue";
 </script>
 
 <template>
   <main>
-    <WelcomeItem />
+    <Index title="How are you feeling today?"/>
   </main>
 </template>
 

@@ -2,10 +2,7 @@
 import TheWelcome from "../components/TheWelcome.vue";
 </script>
 
-
-
-<template>
-      
+<template>   
     <div class="weather">
         <h1> 
         Let's talk weather 
@@ -23,17 +20,10 @@ import TheWelcome from "../components/TheWelcome.vue";
             </path>
           </svg></button>
       </div>
-    
-   
-  
-  
     </div>
-
-  
   </template>
   
-  
-  <style>
+<style>
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -54,12 +44,8 @@ h3 {
       display: flex;
       align-items: center;
       justify-content: center;
-     
-    
     }
   } 
-
-
 
 
 .card {
@@ -137,5 +123,4 @@ h1.temp {
   left: 20px;
 }
   
-  
-  </style>
+</style>
